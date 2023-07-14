@@ -21,8 +21,8 @@ const MOCK_TAGS = [
 const ScrollingTags = () => {
   return (
     <Container>
-      {MOCK_TAGS.map((tag) => (
-        <TagContainer>
+      {MOCK_TAGS.map((tag, index) => (
+        <TagContainer key={index}>
           {/* For now, cannot show the logos, because cannot get the exact logos */}
           <TagText>{tag}</TagText>
         </TagContainer>

@@ -12,7 +12,7 @@ export type CryptoCurrencyPrice = {
 const useQueryCryptoPrice = () => {
   const result = useQuery('crypto-price', async () => {
     const response = await fetch(
-      `${process.env.REACT_APP_API_PINTU}/trade/price-changes`,
+      `https://cors-anywhere.herokuapp.com/${process.env.REACT_APP_API_PINTU}/trade/price-changes`,
     );
     return response.json();
   });

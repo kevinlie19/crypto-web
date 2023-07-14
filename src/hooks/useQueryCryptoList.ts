@@ -26,7 +26,7 @@ export type SupportedCryptoCurrencies = {
 const useQueryCryptoList = () => {
   const result = useQuery('crypto-list', async () => {
     const response = await fetch(
-      `${process.env.REACT_APP_API_PINTU}/wallet/supportedCurrencies`,
+      `https://cors-anywhere.herokuapp.com/${process.env.REACT_APP_API_PINTU}/wallet/supportedCurrencies`,
     );
     return response.json();
   });
