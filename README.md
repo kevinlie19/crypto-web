@@ -3,8 +3,10 @@
 Crypto Web is a progressive & responsive web app that inspired by [Pintu](https://pintu.co.id/market) and was bootstrapped with [Create React App](https://create-react-app.dev/).
 
 ## DEMO
+Deployed using Vercel with automatic deployment per each changes in the main branch. Try out the demo [here](https://crypto-web-blush.vercel.app/).
 
 ## API
+This project is using PINTU API for getting the data.
 
 ## Tech Stacks
 
@@ -45,3 +47,9 @@ To test the project's available tests using `react-scripts test`.
 ## Screenshots
 
 This are the screenshots of the app:
+
+- Home (Desktop)
+<img width="1440" alt="Screen Shot 2023-07-14 at 15 22 33" src="https://github.com/kevinlie19/crypto-web/assets/48467219/64808e35-b35a-47af-b3f0-07a06df46cb4">
+
+- Home (Mobile)
+<img width="1440" alt="Screen Shot 2023-07-14 at 15 20 46" src="https://github.com/kevinlie19/crypto-web/assets/48467219/8a1b36c5-21c5-47af-a948-cb0cb048ab23">
