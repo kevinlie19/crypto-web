@@ -14,9 +14,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.3",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
@@ -27,6 +29,9 @@
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
@@ -34,7 +39,17 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "plugins": [
+      "prettier"
     ]
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "browserslist": {
     "production": [

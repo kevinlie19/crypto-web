@@ -1,24 +1,22 @@
-import logo from "./logo.svg";
-import "./App.css";
+import isPropValid from '@emotion/is-prop-valid';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
+import { StyleSheetManager } from 'styled-components';
+
+import RootRoutes from './routes';
+
+// Create a client
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // StyleSheetManager is needed when using styled-components version 6
+    <StyleSheetManager shouldForwardProp={isPropValid}>
+      <QueryClientProvider client={queryClient}>
+        <ReactQueryDevtools initialIsOpen={false} />
+        <RootRoutes />
+      </QueryClientProvider>
+    </StyleSheetManager>
   );
 }
 
