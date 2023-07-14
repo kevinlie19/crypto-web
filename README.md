@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# CRYPTO WEB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crypto Web is a progressive & responsive web app that inspired by [Pintu](https://pintu.co.id/market) and was bootstrapped with [Create React App](https://create-react-app.dev/).
 
-## Available Scripts
+## DEMO
 
-In the project directory, you can run:
+Deployed using Vercel with automatic deployment per each changes in the master branch. Try out the demo [here](https://crypto-exchange-kohl.vercel.app/).
 
-### `npm start`
+## API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is using PINTU API for getting the data. You can read the official documentation [here](https://www.coingecko.com/en/api/documentation).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stacks
 
-### `npm test`
+The tech stacks and libraries that used are:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (18+)
+- Typescript
+- Jest (testing)
+- [styled-components](https://styled-components.com/)
+- [React Query](https://tanstack.com/query/v3/)
+- [React Router](https://reactrouter.com/en/main)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-### `npm run build`
+## How to use the app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is using `yarn` so make sure you have `yarn` installed first.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- git clone the app
+- cd to `crypto-web`
+- yarn
+- yarn start
+- Open [http://localhost:3000](http://localhost:3000) in the browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Important Scripts
 
-### `npm run eject`
+The base scripts are the same as defined in the CRA app but with some modifications.
+These are some important scripts that you need to aware of:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `yarn start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the project using `react-scripts start`.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `yarn test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To test the project's available tests using `react-scripts test`.
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This are the screenshots of the app:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Home
+  <img width="1440" alt="Screen Shot 2022-03-07 at 13 21 16" src="https://user-images.githubusercontent.com/42708035/156979017-10f1b7f4-7859-43d7-965c-fb7682abd872.png" style="border: 1px solid black">
+  <img width="1440" alt="Screen Shot 2022-03-07 at 13 28 47" src="https://user-images.githubusercontent.com/42708035/156979723-4329c3b9-dbb7-4c3e-89bb-2884becd0537.png" style="border: 1px solid black">
 
-### Code Splitting
+- Performance (Lighthouse)
+  <img width="1440" alt="Screen Shot 2022-03-07 at 13 39 19" src="https://user-images.githubusercontent.com/42708035/156980852-c8bfb482-c067-4049-9349-77f88f9c8e45.png" style="border: 1px solid black">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fallback with skeleton when loading
+  <img width="1440" alt="Screen Shot 2022-03-07 at 08 33 52" src="https://user-images.githubusercontent.com/42708035/156981561-6207088b-0473-4256-a439-51b99d623cb9.png" style="border: 1px solid black">

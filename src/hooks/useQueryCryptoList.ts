@@ -24,18 +24,12 @@ export type SupportedCryptoCurrencies = {
 };
 
 const useQueryCryptoList = () => {
-  const result = useQuery(
-    'crypto-list',
-    async () => {
-      const response = await fetch(
-        `${process.env.REACT_APP_API_PINTU}/wallet/supportedCurrencies`,
-      );
-      return response.json();
-    },
-    // {
-    //   refetchInterval: 3000,
-    // }
-  );
+  const result = useQuery('crypto-list', async () => {
+    const response = await fetch(
+      `${process.env.REACT_APP_API_PINTU}/wallet/supportedCurrencies`,
+    );
+    return response.json();
+  });
 
   return result;
 };

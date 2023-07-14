@@ -1,6 +1,5 @@
 import isPropValid from '@emotion/is-prop-valid';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtools } from 'react-query/devtools';
 import { StyleSheetManager } from 'styled-components';
 
 import RootRoutes from './routes';
@@ -13,7 +12,6 @@ function App() {
     // StyleSheetManager is needed when using styled-components version 6
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <QueryClientProvider client={queryClient}>
-        <ReactQueryDevtools initialIsOpen={false} />
         <RootRoutes />
       </QueryClientProvider>
     </StyleSheetManager>
