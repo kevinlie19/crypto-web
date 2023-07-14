@@ -5,6 +5,7 @@ Crypto Web is a progressive & responsive web app that inspired by [Pintu](https:
 ## DEMO
 
 Deployed using Vercel with automatic deployment per each changes in the main branch. Try out the demo [here](https://crypto-web-blush.vercel.app/).
+NOTE: make sure you have added and turned on the CORS extension.
 
 ## API
 
@@ -29,7 +30,9 @@ This project is using `yarn` so make sure you have `yarn` installed first.
 - git clone the app
 - cd to `crypto-web`
 - yarn
-- Open [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo) in the browser and click `Request temporary access to the demo server`
+- Use Google Chrome browser (because cors issue)
+- Open [https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en) in the browser and click `Add to Chrome` and `Add extension`
+- Activate the CORS extension
 - yarn start
 - Open [http://localhost:3000](http://localhost:3000) in the browser
 
@@ -56,3 +59,6 @@ This are the screenshots of the app:
 
 - Home (Mobile)
   <img width="1440" alt="Screen Shot 2023-07-14 at 15 20 46" src="https://github.com/kevinlie19/crypto-web/assets/48467219/8a1b36c5-21c5-47af-a948-cb0cb048ab23">
+
+  - Google Chrome's CORS Extension
+    <img width="1440" alt="Screen Shot 2023-07-14 at 16 02 33" src="https://github.com/kevinlie19/crypto-web/assets/48467219/04d79bec-7118-407b-be9f-a80fb86f06c7">
