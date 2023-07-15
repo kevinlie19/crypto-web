@@ -16,8 +16,8 @@ This project is using PINTU API for getting the data.
 The tech stacks and libraries that used are:
 
 - React (18+)
-- Typescript
-- Jest (testing)
+- [Typescript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
 - [styled-components](https://styled-components.com/)
 - [React Query](https://tanstack.com/query/v3/)
 - [React Router](https://reactrouter.com/en/main)
@@ -60,5 +60,5 @@ This are the screenshots of the app:
 - Home (Mobile)
   <img width="1440" alt="Screen Shot 2023-07-14 at 15 20 46" src="https://github.com/kevinlie19/crypto-web/assets/48467219/8a1b36c5-21c5-47af-a948-cb0cb048ab23">
 
-  - Google Chrome's CORS Extension
-    <img width="1440" alt="Screen Shot 2023-07-14 at 16 02 33" src="https://github.com/kevinlie19/crypto-web/assets/48467219/04d79bec-7118-407b-be9f-a80fb86f06c7">
+- Google Chrome's CORS Extension
+  <img width="1440" alt="Screen Shot 2023-07-14 at 16 02 33" src="https://github.com/kevinlie19/crypto-web/assets/48467219/04d79bec-7118-407b-be9f-a80fb86f06c7">
